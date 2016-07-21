@@ -1,0 +1,7 @@
+import pandas as pd
+import os
+
+os.chdir('/home/abc/workspace/machinelearning/data/avengers/')
+
+avengers = pd.read_csv('avengers.csv',encoding='ISO-8859-1')
+
